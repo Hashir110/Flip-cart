@@ -1,0 +1,136 @@
+@import url(https://fonts.google.com/specimen/Lato?query=lato);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2874f0;
+  font-family: "Instrument Serif", serif;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 88px;
+  padding: 0 25px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  height: 58px;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: black;
+  font-weight: bolde;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 7px;
+  margin: 0 18px 0 58px;
+  padding: 0 12px;
+}
+
+.search button {
+  font-family: "Instrument Serif", serif;
+  font-weight: 500;
+}
+
+.btn:hover {
+  color: black;
+}
+.login button {
+  font-family: "Instrument Serif", serif;
+}
+
+.login button {
+  width: 60px;
+  height: 27px;
+  border-radius: 7px;
+  padding: 18px;
+  margin: 14px;
+}
+
+.login button:hover {
+  font-family: "Instrument Serif", serif;
+  font-weight: 500;
+  color: black;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  margin: 12px auto;
+  width: 80vw;
+  overflow: hidden;
+}
+
+.card {
+  background-color: floralwhite;
+  max-width: 91vw;
+  margin: 37px auto;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card h2 {
+  font-family: "Instrument Serif", serif;
+  margin: 10px;
+  padding: 5px;
+}
+
+.card-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 10vw;
+  margin: 0 10px;
+}
+
+.card-item img:hover {
+  cursor: pointer;
+}
+
+main .container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+
+main {
+  background: white;
+}
+
+footer {
+  background: #2874f0;
+  height: 12vh;
+  color: white;
+  font-family: "Instrument Serif", serif;
+}
